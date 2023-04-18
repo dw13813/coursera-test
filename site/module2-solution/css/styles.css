@@ -163,7 +163,7 @@
 }
 
 h1 {
-	margin-bottom: 16px;
+	margin-bottom: 25px;
 	font-size: 175%;
 	text-align: center
 }
@@ -176,6 +176,7 @@ div.container {
 
 .heading {
 	float: right;
+	width: 120px;
 	border-left-style: solid;
 	border-left-color: black;
 	border-left-width: 1px;
@@ -194,8 +195,8 @@ div.container {
 
 p {
 	clear: right;
-	padding: 6px 15px 2px 15px;
-	margin: 4px;
+	padding: 8px 15px 8px 15px;
+	margin: 0px;
 	overflow: auto;
 }
 
