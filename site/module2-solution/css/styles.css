@@ -1,6 +1,8 @@
 * {
 	box-sizing: border-box;
 	font-family: Arial, Helvetica, sans-serif;
+	margin: 0px;
+	padding: 0px;
 }
 
 .row {
@@ -10,13 +12,13 @@
 @media (min-width: 992px) {
   .col-lg-1, .col-lg-2, .col-lg-3, .col-lg-4, .col-lg-5, .col-lg-6, .col-lg-7, .col-lg-8, .col-lg-9, .col-lg-10, .col-lg-11, .col-lg-12 {
     float: left;
-    border-top-width: 20px;
+    border-top-width: 24px;
     border-top-color: white;
     border-top-style: solid;
-    border-right-width: 10px;
+    border-right-width: 16px;
     border-right-color: white;
     border-right-style: solid;
-    border-left-width: 10px;
+    border-left-width: 16px;
     border-left-color: white;
     border-left-style: solid;
   }
@@ -56,19 +58,31 @@
   .col-lg-12 {
     width: 100%;
   }
+  .lg-right {
+  	border-right-width: 24px;
+  	border-right-style: solid;
+  	border-right-color: white;
+  	border-left-width: 8px;
+  }
+  .lg-left {
+  	border-right-width: 8px;
+  	border-left-width: 24px;
+  	border-left-style: solid;
+  	border-left-color: white;
+  }
 }
 
 /********** Medium devices only **********/
 @media (min-width: 768px) and (max-width: 991px) {
   .col-md-1, .col-md-2, .col-md-3, .col-md-4, .col-md-5, .col-md-6, .col-md-7, .col-md-8, .col-md-9, .col-md-10, .col-md-11, .col-md-12 {
     float: left;
-    border-top-width: 20px;
+    border-top-width: 24px;
     border-top-color: white;
     border-top-style: solid;
-    border-right-width: 10px;
+    border-right-width: 12px;
     border-right-color: white;
     border-right-style: solid;
-    border-left-width: 10px;
+    border-left-width: 12px;
     border-left-color: white;
     border-left-style: solid;
   }
@@ -108,19 +122,30 @@
   .col-md-12 {
     width: 100%;
   }
+  .md-right {
+  	border-right-width: 24px;
+  	border-right-style: solid;
+  	border-right-color: white;
+  	clear: right;
+  }
+  .md-left {
+  	border-left-width: 24px;
+  	border-left-style: solid;
+  	border-left-color: white;
+  }
 }
 
 /********** Small devices only **********/
 @media (max-width: 767px) {
   .col-sm-1, .col-sm-2, .col-sm-3, .col-sm-4, .col-sm-5, .col-sm-6, .col-sm-7, .col-sm-8, .col-sm-9, .col-sm-10, .col-sm-11, .col-sm-12 {
     float: left;
-    border-top-width: 20px;
+    border-top-width: 24px;
     border-top-color: white;
     border-top-style: solid;
-    border-right-width: 10px;
+    border-right-width: 24px;
     border-right-color: white;
     border-right-style: solid;
-    border-left-width: 10px;
+    border-left-width: 24px;
     border-left-color: white;
     border-left-style: solid;
   }
@@ -163,7 +188,8 @@
 }
 
 h1 {
-	margin-bottom: 25px;
+	margin-top: 21px;
+	margin-bottom: 9px;
 	font-size: 175%;
 	text-align: center
 }
