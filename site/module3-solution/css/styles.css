@@ -11,7 +11,7 @@ body {
 
 /* Begin Header Styling */
 .container {
-	width: 90%;
+	width: 95%;
 }
 
 .navbar-toggle {
@@ -94,10 +94,10 @@ screen widths.*/
 		width: 100%;
 	}
 	.navbar-brand {
-		padding-left: 5%;
+		padding-left: 2.5%;
 	}
 	.navbar-toggle {
-		margin-right: 5%;
+		margin-right: 2.5%;
 	}	
 }
 
