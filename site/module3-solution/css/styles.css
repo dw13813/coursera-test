@@ -9,20 +9,9 @@ body {
 	background-color: #78a2cc;
 }
 
+/* Begin Header Styling */
 .container {
 	width: 90%;
-}
-
-/* Media inquiry to reset container size for extra small devices. 
-Overrides the previously defined .container class's width and 
-ensures drop menu covers the full width of the screen */
-@media (max-width: 767px) {
-	section.container {
-		width: 80%;
-	}
-	header .container {
-		width: 100%;
-	}
 }
 
 #header-nav {
@@ -32,6 +21,10 @@ ensures drop menu covers the full width of the screen */
   border-bottom-width: 2px;
   border-bottom-color: black;
   border-bottom-style: solid;
+}
+
+.navbar-brand {
+	padding-left: 0px;
 }
 
 .navbar-brand h1 {
@@ -69,6 +62,9 @@ ensures drop menu covers the full width of the screen */
   border-bottom-style: solid;
 }
 
+/* #nav-list a.last: Prevents the bottom border of the last item 
+of the nav-list from being added to the bottom border of the 
+header-nav creating a thicker border */
 #nav-list a.last {
 	border-bottom-width: 0px;
 }
@@ -80,6 +76,25 @@ ensures drop menu covers the full width of the screen */
 .navbar-header button.navbar-toggle, .navbar-header .icon-bar {
   border: 1px solid #000;
 }
+
+/* Media inquiry to reset container size for extra small devices. 
+Overrides the previously defined .container class's width and 
+ensures drop menu covers the full width of the screen. Also
+adjusts the padding for the navbar-brand to make the header more
+balnaced visually*/
+@media (max-width: 767px) {
+	section.container {
+		width: 80%;
+	}
+	header .container {
+		width: 100%;
+	}
+	.navbar-brand h1 {
+		padding-left: 15px;
+	}
+}
+
+/* Begin Body Styling */
 
 h2 {
 	color: #000;
