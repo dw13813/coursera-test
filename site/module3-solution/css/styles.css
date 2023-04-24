@@ -10,8 +10,19 @@ body {
 }
 
 .container {
-	width: 98%;
+	width: 90%;
 }
+
+/* Media inquery to reset container size for extra small devices. 
+Overrides previous .container class */
+/*@media (max-width: 767px) {
+	section.container {
+		width: 80%;
+	}
+	header .container {
+		width: 100%;
+	}
+}*/
 
 #header-nav {
   background-color: #77D077;
