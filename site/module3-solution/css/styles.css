@@ -39,6 +39,7 @@ body {
   margin-bottom: 0;
   line-height: .75;
   overflow: hidden;
+  padding-top: 1px;
   padding-left: 0px;
   padding-bottom: 10px;
 }
