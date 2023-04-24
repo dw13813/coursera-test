@@ -133,6 +133,8 @@ a.link-to-top {
 	padding-right: 10px;
 }
 
+/* Selec paragraphs that have bootstrap's text-center
+class and fix spacing */
 p.text-center {
 	padding-top: 0px;
 	padding-bottom: 0px;
