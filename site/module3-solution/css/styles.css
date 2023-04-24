@@ -14,8 +14,8 @@ body {
 }
 
 /* Media inquiry to reset container size for extra small devices. 
-Overrides previous .container class width and ensures drop menu covers
-the full width of the screen */
+Overrides the previously defined .container class's width and 
+ensures drop menu covers the full width of the screen */
 @media (max-width: 767px) {
 	section.container {
 		width: 80%;
