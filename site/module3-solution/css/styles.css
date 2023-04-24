@@ -14,6 +14,10 @@ body {
 	width: 90%;
 }
 
+.navbar-toggle {
+	margin-right: 0px;
+}
+
 #header-nav {
   background-color: #77D077;
   border-radius: 0;
@@ -77,21 +81,24 @@ header-nav creating a thicker border */
   border: 1px solid #000;
 }
 
-/* Media inquiry to reset container size for extra small devices. 
-Overrides the previously defined .container class's width and 
-ensures drop menu covers the full width of the screen. Also
-adjusts the padding for the navbar-brand to make the header more
-balnaced visually*/
+/* Media inquiry to adjust container width of the header to 
+ensure the drop menu takes the full screen width for mobile. 
+Also adjusts the padding around the header elements to keep
+them consistent with the container width for the non-mobile
+screen widths.*/
 @media (max-width: 767px) {
-	section.container {
+	/*section.container {
 		width: 80%;
-	}
+	}*/
 	header .container {
 		width: 100%;
 	}
-	.navbar-brand h1 {
-		padding-left: 15px;
+	.navbar-brand {
+		padding-left: 5%;
 	}
+	.navbar-toggle {
+		margin-right: 5%;
+	}	
 }
 
 /* Begin Body Styling */
