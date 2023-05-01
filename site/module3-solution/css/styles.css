@@ -31,15 +31,18 @@ body {
 	padding-left: 0px;
 }
 
+/*To keep navbar-brand in one place:
+Set container width to 100% for only the header and
+use pixels for offsets.*/
 .navbar-brand h1 {
   color: #000;
   font-size: 1.5em;
   font-weight: bold;
   margin-top: 0;
-  margin-bottom: 0;
+  margin-bottom: 0px;
   line-height: .75;
   overflow: hidden;
-  padding-top: 1px;
+  padding-top: 4px;
   padding-left: 0px;
   padding-bottom: 10px;
 }
@@ -82,11 +85,11 @@ header-nav creating a thicker border */
   border: 1px solid #000;
 }
 
-/* Media inquiry to adjust container width of the header to 
+/* Media query to adjust container width of the header to 
 ensure the drop menu takes the full screen width for mobile. 
 Also adjusts the padding around the header elements to keep
-them consistent with the container width for the non-mobile
-screen widths.*/
+them consistent with the container width for non-mobile
+screens.*/
 @media (max-width: 767px) {
 	/*section.container {
 		width: 80%;
@@ -134,7 +137,7 @@ a.link-to-top {
 	padding-right: 10px;
 }
 
-/* Selec paragraphs that have bootstrap's text-center
+/* Select paragraphs that have bootstrap's text-center
 class and fix spacing */
 p.text-center {
 	padding-top: 0px;
